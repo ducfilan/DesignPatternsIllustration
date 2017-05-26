@@ -1,2 +1,2 @@
-# codingground
-Main Repository for Coding Ground
+# A Mini Duck Simulator
+A sample design during Design Patterns book reading
