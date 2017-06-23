@@ -5,7 +5,7 @@ public class Mocha extends CondimentDecorator {
         this.beverage = beverage;
     }
 
-    public Stirng getDescription(){
+    public String getDescription(){
         return beverage.getDescription() + ", Mocha";
     }
 
