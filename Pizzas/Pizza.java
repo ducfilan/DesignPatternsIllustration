@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public abstract class Pizza {
     String name;
     String dough;
@@ -24,7 +26,7 @@ public abstract class Pizza {
         System.out.println("Boxing " + name);
     }
 
-    public toString() {
+    public String toString() {
         StringBuffer display = new StringBuffer();
 
         display.append("---- " + name + " ----\n");
